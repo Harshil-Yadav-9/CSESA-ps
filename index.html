@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="logo.png" alt="CSES" class="csesLogo"/>
+        <div class="logtog">
+            <div class="login">Login</div>
+            <span> — </span>
+            <div class="toggleIcon">
+                <button onclick="myFunction()" class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="skeleton">
+            <div class="navigation">
+                <div class="title_block">
+                    <h1>Code Submission Evaluation System</h1>
+                </div>
+                <ul class="nav">
+                    <li>
+                        <a href="index.html" class="Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="Courses">Courses</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="Contests">Contests</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="Statistics">Statistics</a>
+                    </li>
+                    <li>
+                        <a href="index.html" class="About">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="box">
+            <div id="one">
+                <div class="md">
+                    <h3 class="cse_problem_set bar">CSES Problem Set</h3>
+                    <p>
+                        The CSES Problem Set contains a collection of algorithm programming practice problems. You can access the problems
+                        <span class="here">here</span>
+                        <span>.</span>
+                    </p>
+                </div>
+            </div>
+            <div id="two">
+                <div class="md">
+                    <h3 class="Datatähti-valmennus bar">Datatähti-valmennus</h3>
+                    <p>
+                        Kokoelma harjoitustehtäviä, joiden avulla voit harjoitella Datatähteä ja muita kilpailuja varten. Pääset tehtäviin
+                        <span class="here">tästä</span>
+                        <span>.</span>
+                    </p>
+                    
+                </div>
+            </div>
+            <div id="three">
+                <div class="md">
+                    <h3 class="cseblog bar">CSE Blog</h3>
+                    <ul>
+                        <li id="cseprob">
+                            CSE problem set may 2025 Update
+                        </li>
+                    </ul>
+                    <h3 class="cse4teachers bar">CSES for Teachers</h3>
+                    <p>
+                        Using this new feature, teachers can create their own courses and track their students' progress.
+                    </p>
+                    <ul>
+                        <li id="cseprob">
+                            CSES for Teachers
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="four">
+                <div class="md">
+                    <h3 class="boi_contest bar">BOI Contenst Collections</h3>
+                    <p>
+                        This collection contains all Baltic Olympiad in Informatics contests from 2005 to 2021. You can access the contests
+                        <span class="here">here</span>
+                        <span>.</span>
+                    </p>
+                    <h3 class="ceoi_contest bar">CEOI Contest Collection</h3>
+                    <p>
+                        This collection contains all Central European Olympiad in Informatics contests from 2005 to 2021. You can access the contests
+                        <span class="here">here</span>
+                        <span>.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        function myFunction() {
+            let element = document.body;
+            element.classList.toggle("dark-mode");
+            }
+    </script>
+</body>
+</html>
