@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="Tesla.png" alt="TESLA" class="brand"/>
+        <div class="telsa-items">
+            <div class="item">Vehicles</div>
+            <div class="item">Energy</div>
+            <div class="item">Charging</div>
+            <div class="item">Discover</div>
+            <div class="item">Shop</div>
+        </div>
+        <div class="help">
+            <div class="support">
+                <i class="fa-regular fa-circle-question" alt="support"></i>
+            </div>
+            <div class="region-language">
+                <i class="fa-solid fa-globe" alt="region & language"></i>
+            </div>
+            <div class="account">
+                <i class="fa-regular fa-circle-user" alt="account"></i>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="heros">
+            <div class="hero">
+                <img src="hero-1.png" alt="Model-3 of Tesla Car" class="hero-1 hero-model"/>
+                <img src="hero-2.png" alt="Model-Y of Tesla Car" class="hero-2 hero-model"/>
+                <img src="hero-3.png" alt="CyberTruck" class="hero-3 hero-model"/>
+            </div>
+            <div class="btn">
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+            </div>
+            <div class="rounds-1">
+                <button class="circle"></button>
+                <button class="circle"></button>
+                <button class="circle"></button>
+            </div>
+        </div>
+        <div class="models">
+            <div class="model">
+                <img src="modelY.png" alt="Model-Y of Tesla Car" class="model-1 car"/>
+                <img src="model3.png" alt="Model-3 of Tesla Car" class="model-2 car"/>
+                <img src="abrtkk.png" alt="ABRTKK of Tesla Car" class="ABTRKK car"/>
+                <img src="modelX.png" alt="Model-X of Tesla Car" class="model-X car"/>
+                <img src="modelS.png" alt="Model-S of Tesla Car" class="model-S car"/>
+            </div>
+        </div>
+        <div class="rounds-2">
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+        </div>
+        <div class="offers">
+            <div class="current-offers">
+                <div class="text">
+                    <div class="heading-off">Current Offers</div>
+                    <p>Explore limited-time offers on Tesla vehicles.</p>
+                </div>
+                <img src="current-offer.png" alt="Curent Offer" class="curr-off"/>
+            </div>
+            <div class="annual-shareholder-meet">
+                <div class="text">
+                    <div class="heading-off">Annual Shareholder Meeting</div>
+                    <p>The future of Tesla is in your hands. Learn why your vote matters.</p>
+                </div>
+                <img src="shareholder-meet.png" alt="Shareholder Meeting" class="srholdr-meet"/>
+            </div>
+        </div>
+        <div class="features">
+            <div class="self-driving">
+                <video src="self-drive.mp4" autoplay muted loop alt="Full Self-Driving (Supervised)" class="self-drive"></video>
+            </div>
+            <div class="standard-feature">
+                <img src="standard.png" alt="Feature" class="feature"/>
+            </div>
+        </div>
+        <iframe
+            src="https://www.google.com/maps?q=United+States&output=embed"
+            style="border:0;"
+            allowfullscreen=""
+            referrerpolicy="no-referrer-when-downgrade"
+            loading="lazy"
+            class="map">
+        </iframe>
+        <div class="chargers">
+            <div class="charge">
+                Find Your Charge
+                <p>View the network of Tesla Superchargers and Destination Chargers available near you.</p>
+            </div>
+            <div class="charger">
+                <div class="superchargers">
+                    <p id="charge-products">33,726</p>
+                    <i class="fa-solid fa-bolt icon-supercharger"></i>
+                    <p>Superchargers</p>
+                </div>
+                <div class="destination-chagers">
+                    <p id="charge-products">10,148</p>
+                    <i class="fa-solid fa-plug icon-destinationcharger"></i>
+                    <p>Destination Chargers</p>
+                </div>
+            </div>
+        </div>
+        <div class="innovations">
+            <div class="innovation">
+                <img src="solar-panels.png" alt="Solar Penals" class="solar-penal products"/>
+                <img src="power-wall.png" alt="Powerwall" class="powerwall products"/>
+                <img src="solar-roof.png" alt="Solar Roof" class="solar-roof products"/>
+                <img src="megapack.png" alt="Megapack" class="megapack products"/>
+            </div>
+        </div>
+        <div class="rounds-3">
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+            <button class="circle"></button>
+        </div>
+    </main>
+    <footer>
+        <ul class="nav">
+            <li>Tesla © 2025</li>
+            <li>Privacy & Legal</li>
+            <li>Vehicle Recalls</li>
+            <li>Contact</li>
+            <li>News</li>
+            <li>Get Updates</li>
+            <li>Locations</li>
+            <li>Learn</li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

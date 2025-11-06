@@ -1,0 +1,285 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    position: fixed;
+    top: 0px;
+    height: 60px;
+    width: 100%;
+    background-color: #fff;
+    display: inline-flex;
+    justify-content: space-between;
+}
+.brand{
+    width: 10%;
+    height: 40px;
+    object-fit: cover;
+    margin: 10px 5px 5px 50px;
+    background-color: #fff;
+}
+.item{
+    display: inline-block;
+    justify-self: center;
+    align-self: center;
+    margin: 20px 20px;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 550;
+}
+.help{
+    display: flex;
+    justify-content: center;
+    margin: 20px 30px;
+    gap: 10px;
+}
+.hero{
+    overflow: hidden;
+    margin-top: 60px;
+}
+.hero-model{
+    height: 90vh;
+    width: 100vw;
+    display: none;
+}
+img.displaySlide{
+    display: block;
+    animation: fade 1s;
+}
+.btn button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: white;
+    color: black;
+    border: none;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.prev{
+    left: 25px;
+    border-radius: 4px;
+}
+.next{
+    right: 25px;
+    border-radius: 4px;
+}
+.btn button{
+    box-shadow: 2px 2px 5px black;
+}
+@keyframes fade {
+    from{opacity: 0.5}
+    to{opacity: 1}
+}
+.border{
+    border: 10px solid rgb(0, 0, 0);
+}
+.rounds-1 {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+}
+.rounds-1 button {
+    background-color: #ffffff8d;
+    width: 15px;
+    height: 15px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.models{
+    margin-top: 3rem;
+    overflow-x: scroll;
+}
+.models::-webkit-scrollbar{
+    display: none;
+}
+.model{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    gap: 1rem;
+}
+.car,.products{
+    height: 90vh;
+    width: 80vw;
+    border-radius: 1rem;
+}
+.rounds-2 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.rounds-2 button {
+    background-color: #797979cc;
+    width: 15px;
+    height: 15px;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.offers {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+
+.current-offers,.annual-shareholder-meet {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e2e2e2a6;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: 40vw;
+    height: 200px;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+.heading-off {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -0.75rem;
+}
+.curr-off,.srholdr-meet {
+    height: 250px;
+    margin-top: -1.5rem;
+    margin-right: -1.8rem;
+    width: auto;
+    border-radius: 0.5rem;
+}
+.features{
+    display: flex;
+    gap: -5rem;
+}
+.self-drive{
+    display: block;
+    width: 60vw;
+    height: 90vh;
+    object-fit: cover;
+    margin: 10px 8px 5px 40px;
+    background-color: #fff;
+    border-radius: 0.5rem;
+}
+.feature{
+    display: block;
+    justify-content: right;
+    margin: 10px 20px 5px 8px;
+    width: 33vw;
+    height: 90vh;
+    border-radius: 0.5rem;
+}
+.map{
+    height: 80vh;
+    width: 80vw;
+    display: flex;
+    margin: 1.5rem 9rem;
+    border: 0;
+}
+.chargers{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.charge{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
+    font-size: 2.5rem;
+    font-weight: 600;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 55%;
+    margin: 1rem 0 0.5rem 5rem;
+}
+p {
+    margin-top: 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 500;;
+    font-family: sans-serif;
+    color: #333;
+}
+.superchargers,.destination-chagers{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#charge-products{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.icon-supercharger{
+    height: 2vh;
+    width: 1vw;
+    margin: 1.2rem 0.5rem;
+    background-color: red;
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 10px;
+}
+.charger{
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+.icon-destinationcharger{
+    height: 2vh;
+    width: 1vw;
+    margin: 1.2rem 0.5rem;
+    background-color: rgba(24, 24, 24, 0.563);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    padding: 10px;
+}
+.innovations{
+    margin-top: 3rem;
+    margin-bottom: 0.5rem;
+    overflow-x: scroll;
+    
+}
+.innovations::-webkit-scrollbar{
+    display: none;
+}
+
+.innovation{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    gap: 1rem;
+}
+.rounds-3 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.rounds-3 button {
+    background-color: #797979cc;
+    width: 15px;
+    height: 15px;
+    margin: 1rem 0;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 5rem 0 2rem 0;
+    gap: 15px;
+}
+.nav>li{
+    display: inline;
+    margin: 1px 0;
+    cursor: pointer;
+}
